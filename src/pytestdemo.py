@@ -9,3 +9,4 @@ def test_b():
 
 if __name__ == '__main__':
     pytest.main("-s pytestdemo.py")
+
