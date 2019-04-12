@@ -1,0 +1,20 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1554952321583" stop="1554952321583">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1554952321583" status="broken" stop="1554952321583">
+      <name>test_params</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>test_params.py:3: in &lt;module&gt;
+    @allure.story("哇咔咔")
+E   NameError: name 'allure' is not defined</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,69 @@
+{
+  "uid" : "42e2df6fb53f6147",
+  "name" : "test_add[9-8]",
+  "fullName" : "test_params.test_add[9-8]",
+  "historyId" : "1fb6dc2599fae16dcaa048841ed4c66",
+  "time" : {
+    "start" : 1554971739310,
+    "stop" : 1554971739440,
+    "duration" : 130
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 9 == 8",
+  "statusTrace" : "x = 9, y = 8\n\n    @allure.story(\"哇咔咔\")\n    @pytest.mark.parametrize(\"x,y\",[(3+6,8),(1+2,3),(2+9,11)])\n    def test_add(x,y):\n>       assert x == y\nE       assert 9 == 8\n\ntest_params.py:7: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "feng-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "哇咔咔"
+  }, {
+    "name" : "thread",
+    "value" : "4900-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_params"
+  }, {
+    "name" : "testClass",
+    "value" : "test_params"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_add[9-8]"
+  }, {
+    "name" : "package",
+    "value" : "test_params"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "42e2df6fb53f6147.json",
+  "parameterValues" : [ ]
+}
