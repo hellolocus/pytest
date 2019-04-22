@@ -1,0 +1,57 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1555031713157" stop="1555031713347">
+  <name>test_params</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1555031713157" status="passed" stop="1555031713167">
+      <name>test_add[11-11]</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="哇咔咔"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6208-MainThread"/>
+        <label name="host" value="feng-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1555031713167" status="failed" stop="1555031713347">
+      <name>test_add[9-8]</name>
+      <failure>
+        <message>AssertionError: assert 9 == 8</message>
+        <stack-trace>x = 9, y = 8
+
+    @allure.story("哇咔咔")
+    @pytest.mark.parametrize("x,y",[(3+6,8),(1+2,3),(2+9,11)])
+    def test_add(x,y):
+&gt;       assert x == y
+E       assert 9 == 8
+
+test_params.py:7: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="story" value="哇咔咔"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6208-MainThread"/>
+        <label name="host" value="feng-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1555031713347" status="passed" stop="1555031713347">
+      <name>test_add[3-3]</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="哇咔咔"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6208-MainThread"/>
+        <label name="host" value="feng-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
